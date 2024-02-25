@@ -1,7 +1,5 @@
 package org.practice.practice.OOP5.model;
 
-import java.util.LinkedHashMap;
-
 public class Teacher extends TrainingGroup{
     @Override
     public String toString() {

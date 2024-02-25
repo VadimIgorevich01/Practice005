@@ -9,7 +9,7 @@ public class Student extends TrainingGroup{
                 ", ID=" + studentID + ")";
     }
 
-    AverageMood IntLvl;
+    public AverageMood IntLvl;
     private static int counterStudentStatic = 0;
     private int studentID;
 
