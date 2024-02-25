@@ -7,6 +7,6 @@
 # c)Liskov Substitution principle
 Классы Student и Teacher являются наследниками абстрактного класса TrainingGroup и они соответствует поведению и типу абстрактного родительского класса
 # d)Interface Segregation principle
-
+Интерфейс SearchMood предназначен, чтобы решать конкретно свою локальную задачу.
 # e)Dependency Inversion principle
 Класс Manage и класс SearchHappyMoodClass взаимодействуют между собой с помощью интерфейса SearchMood. (SearchHappyMoodClass имплементирует интерфейс SearchMood). Таким образом, можно добавить и другие классы по типу SearchHappyMoodClass, которые будут имплементировать один интерфейс SearchMood.
